@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Favas Areekkadan &amp; Fathima Rooshin — Nikkah Ceremony</title>
+  <meta name="description"
+    content="With the blessings of Allah, we joyfully invite you to the Nikkah Ceremony of Favas Areekkadan &amp; Fathima Rooshin on Sunday, 1st November 2026 at Mavoor Panchayath Convention Center, Near Mavoor Bus Stand." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Favas Areekkadan &amp; Fathima Rooshin — Nikkah Ceremony" />
+  <meta property="og:description"
+    content="We joyfully invite you to our Nikkah Ceremony on 1st November 2026 at Mavoor Panchayath Convention Center, Near Mavoor Bus Stand." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/images/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Favas Areekkadan &amp; Fathima Rooshin Nikkah Ceremony — 1 November 2026" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Favas Areekkadan &amp; Fathima Rooshin — Nikkah Ceremony" />
+  <meta name="twitter:description" content="Nikkah Ceremony • 1 November 2026 • Mavoor Panchayath Convention Center, Near Mavoor Bus Stand" />
+  <meta name="twitter:image" content="/assets/images/og-image.png" />
+
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%BF%3C/text%3E%3C/svg%3E" />
+
+  <!-- Preconnects -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts: Cormorant Garamond & Cinzel (headings), Jost & Poppins (body), Amiri (Arabic), Pinyon Script & Cinzel Decorative (calligraphy/highlights) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Cinzel:wght@400;500;600;700&family=Jost:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&family=Amiri:ital,wght@0,400;0,700;1,400&family=Pinyon+Script&family=Cinzel+Decorative:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <meta name="theme-color" content="#FAF7F2" />
+</head>
+
+<body class="gate-active">
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div id="preloader">
+    <div class="preloader-logo shimmer-gold">F &amp; F</div>
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- ===================== OPENING GATE — Bismillah ===================== -->
+  <div id="gate">
+    <div class="gate-pattern" aria-hidden="true"></div>
+    <button type="button" id="gate-enter" class="gate-content" aria-label="Tap to open the invitation">
+      <span class="gate-corner tl"></span>
+      <span class="gate-corner tr"></span>
+      <span class="gate-corner bl"></span>
+      <span class="gate-corner br"></span>
+
+      <span class="gate-bismillah-ar">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</span>
+      <span class="gate-bismillah-en">
+        In the Name of Allah,<br />
+        The Most Gracious, The Most Merciful
+      </span>
+
+      <span class="gate-ornament">
+        <span class="gate-line"></span>
+        <span class="gate-diamond">✿</span>
+        <span class="gate-line"></span>
+      </span>
+
+      <span class="gate-names">Favas Areekkadan &amp; Fathima Rooshin</span>
+
+      <span class="gate-tap">
+        <span class="gate-tap-ring"></span>
+        <span class="gate-tap-icon"><i class="fas fa-envelope-open-text" aria-hidden="true"></i></span>
+      </span>
+      <span class="gate-tap-text">Tap to Open Invitation</span>
+    </button>
+  </div>
+
+  <!-- ===================== GRAIN OVERLAY ===================== -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- ===================== MUSIC TOGGLE ===================== -->
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle background music">
+    <span class="music-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+    <i class="fa-solid fa-music"></i>
+  </button>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/obaida.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- ===================== SIDE NAV DOTS ===================== -->
+  <nav class="side-nav" aria-label="Section navigation">
+    <a href="#hero" class="side-nav__dot" data-label="Welcome" aria-current="true"></a>
+    <a href="#invitation" class="side-nav__dot" data-label="Invitation"></a>
+    <a href="#calendar" class="side-nav__dot" data-label="Calendar"></a>
+    <a href="#countdown" class="side-nav__dot" data-label="Countdown"></a>
+
+    <!-- <a href="#rsvp" class="side-nav__dot" data-label="RSVP"></a> -->
+  </nav>
+
+  <!-- ===================== TOP NAV ===================== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-logo shimmer-gold">F &amp; F</div>
+  </nav>
+
+  <!-- Floral edge decorations (left & right, non-covering) -->
+  <div class="floral-edge floral-edge--left" aria-hidden="true">
+    <svg viewBox="0 0 120 800" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10,0 C60,120 20,260 55,380 C85,480 15,600 45,800" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="55" cy="120" r="5"/><circle cx="30" cy="240" r="4"/><circle cx="60" cy="380" r="6"/>
+      <circle cx="25" cy="520" r="4"/><circle cx="50" cy="660" r="5"/><circle cx="35" cy="760" r="4"/>
+    </svg>
+  </div>
+  <div class="floral-edge floral-edge--right" aria-hidden="true">
+    <svg viewBox="0 0 120 800" xmlns="http://www.w3.org/2000/svg">
+      <path d="M110,0 C60,120 100,260 65,380 C35,480 105,600 75,800" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="65" cy="120" r="5"/><circle cx="90" cy="240" r="4"/><circle cx="60" cy="380" r="6"/>
+      <circle cx="95" cy="520" r="4"/><circle cx="70" cy="660" r="5"/><circle cx="85" cy="760" r="4"/>
+    </svg>
+  </div>
+
+  <!-- ===================== HERO TRANSITION OVERLAY ===================== -->
+  <div class="hero-transition-overlay" id="heroTransitionOverlay" aria-hidden="true"></div>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero">
+    <div class="hero__backdrop" aria-hidden="true">
+      <div class="hero__bg-img"></div>
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__floaters" aria-hidden="true">
+      <span class="floater floater--1">✦</span>
+      <span class="floater floater--2">✦</span>
+      <span class="floater floater--3">✦</span>
+    </div>
+
+    <div class="hero__stage">
+      <p class="eyebrow reveal-item" data-reveal="1">Nikkah Ceremony</p>
+
+      <div class="hero__names reveal-item" data-reveal="2">
+        <div class="hero__name-block hero__name-block--groom">
+          <span class="hero__name">Favas Areekkadan</span>
+          <span class="hero__name-line"></span>
+        </div>
+        <span class="hero__amp">&amp;</span>
+        <div class="hero__name-block hero__name-block--bride">
+          <span class="hero__name">Fathima Rooshin</span>
+          <span class="hero__name-line"></span>
+        </div>
+      </div>
+
+      <div class="hero__date reveal-item" data-reveal="3">
+        <span>Sunday</span><em>·</em><span>01 November 2026</span>
+      </div>
+
+      <p class="hero__venue-line reveal-item" data-reveal="4">Mavoor Panchayath Convention Center &nbsp;·&nbsp; Near Mavoor Bus Stand</p>
+    </div>
+
+    <a href="#invitation" class="scroll-cue" id="scrollCue" aria-label="Scroll to next section">
+      <span class="scroll-cue__stem"></span>
+      <span class="scroll-cue__text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ===================== INVITATION ===================== -->
+  <section id="invitation">
+    <div class="section-bg-pattern" aria-hidden="true"></div>
+    <div class="invitation-content">
+      <span class="section-eyebrow" data-aos="fade-up">You Are Cordially Invited</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">A Blessed Union</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <p class="invitation-lede" data-aos="fade-up" data-aos-delay="150">
+        With immense joy and gratitude to Allah,
+the families of Favas Areekkadan and Fathima Rooshin
+warmly invite you and your family to celebrate their Nikkah Ceremony and share in the blessings of this beautiful beginning.
+      </p>
+
+      <!-- Groom & Bride cards -->
+      <div class="couple-cards">
+        <div class="couple-card" data-aos="fade-right">
+          <div class="couple-card__photo">
+            <div class="corner-ornament tl"></div>
+            <div class="corner-ornament tr"></div>
+            <div class="corner-ornament bl"></div>
+            <div class="corner-ornament br"></div>
+            <img src="assets/images/groom.jpg" alt="Favas Areekkadan" loading="lazy" />
+          </div>
+          <p class="couple-card__label">The Groom</p>
+          <h3 class="couple-card__name">Favas Areekkadan</h3>
+          <div class="couple-card__parents">
+            <strong>Son of</strong>
+            Muhammed Basheer<br />
+            &amp;<br />
+            Sulaikha<br />
+            <span class="couple-card__address">Edakkode House, Millumpadi, Nediyiruppu, Malappuram</span>
+          </div>
+        </div>
+
+        <div class="couple-card__amp" aria-hidden="true">&amp;</div>
+
+        <div class="couple-card" data-aos="fade-left">
+          <div class="couple-card__photo">
+            <div class="corner-ornament tl"></div>
+            <div class="corner-ornament tr"></div>
+            <div class="corner-ornament bl"></div>
+            <div class="corner-ornament br"></div>
+            <img src="assets/images/bride.jpg" alt="Fathima Rooshin" loading="lazy" style="object-position:center top;" />
+          </div>
+          <p class="couple-card__label">The Bride</p>
+          <h3 class="couple-card__name">Fathima Rooshin</h3>
+          <div class="couple-card__parents">
+            <strong>Daughter of</strong>
+            Abdu Razak K<br />&amp;<br />
+            Jameela I K<br />
+            <span class="couple-card__address">Konnare House, Parammel, Mavoor, Kozhikode</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MARK YOUR CALENDAR ===================== -->
+  <section id="calendar">
+    <div class="calendar-bg" aria-hidden="true"></div>
+    <div class="calendar-content">
+      <span class="section-eyebrow" data-aos="fade-up" style="color:var(--gold-light);">Save The Date</span>
+      <h2 class="section-title section-title--light" data-aos="fade-up" data-aos-delay="100">Mark Your Calendar</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200" style="justify-content:center;">
+        <span class="ornament-line" style="background:linear-gradient(90deg,transparent,var(--gold));"></span>
+        <span class="ornament-flower" style="color:var(--gold);">✿</span>
+        <span class="ornament-line right" style="background:linear-gradient(90deg,var(--gold),transparent);"></span>
+      </div>
+
+      <div class="calendar-card" data-aos="fade-up" data-aos-delay="150">
+        <span class="calendar-badge">Nikkah Ceremony</span>
+
+        <div class="calendar-date">
+          <span class="calendar-date__day">Sunday</span>
+          <span class="calendar-date__full">01 November 2026</span>
+        </div>
+
+        <div class="calendar-detail">
+          <div class="calendar-detail__icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+          <div class="calendar-detail__text">
+            <span class="calendar-detail__label">Time</span>
+            <span class="calendar-detail__value">10:30 AM &ndash; 3:00 PM</span>
+          </div>
+        </div>
+
+        <div class="calendar-detail">
+          <div class="calendar-detail__icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+          <div class="calendar-detail__text">
+            <span class="calendar-detail__label">Venue</span>
+            <span class="calendar-detail__value">Mavoor Panchayath Convention Center, Near Mavoor Bus Stand</span>
+          </div>
+        </div>
+
+        <a href="https://maps.app.goo.gl/ZYZc4ng7odMddKfg8?g_st=aw"
+          target="_blank" rel="noopener noreferrer" class="maps-btn" aria-label="Open venue in Google Maps">
+          <i class="fas fa-map" aria-hidden="true"></i>
+          Open in Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COUNTDOWN ===================== -->
+  <section id="countdown">
+    <div class="countdown-bg" aria-hidden="true"></div>
+    <div class="countdown-content">
+      <span class="section-eyebrow" data-aos="fade-up">The Big Day Awaits</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Counting Down to Forever</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <div class="countdown-grid" data-aos="fade-up" data-aos-delay="200" id="countdownGrid">
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-days">00</span>
+            <span class="countdown-label">Days</span>
+          </div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-hours">00</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-minutes">00</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-box">
+            <span class="countdown-number" id="cd-seconds">00</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="countdown-complete" id="countdownComplete" hidden data-aos="fade-up">
+        The celebration has begun!
+      </p>
+
+      <p class="countdown-sub" data-aos="fade-up" data-aos-delay="400">
+        1st November 2026 &bull; 10:30 AM &bull; Mavoor Panchayath Convention Center, Near Mavoor Bus Stand
+      </p>
+    </div>
+  </section>
+
+
+
+  <!-- ===================== QUOTE ===================== -->
+  <section id="quote-section">
+    <div class="quote-bg" aria-hidden="true"></div>
+    <div class="quote-content">
+      <span class="quote-mark" data-aos="fade-in" aria-hidden="true">&#8220;</span>
+      <p class="quote-arabic" data-aos="fade-up">
+        وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
+      </p>
+      <p class="quote-translation" data-aos="fade-up" data-aos-delay="100">
+        "And He placed between you affection and mercy."
+      </p>
+      <span class="quote-source" data-aos="fade-up" data-aos-delay="200">&mdash; Surah Ar-Rum, 30:21</span>
+    </div>
+  </section>
+
+  <!-- ===================== RSVP (commented out) =====================
+  <section id="rsvp">
+    <div class="section-bg-pattern" aria-hidden="true"></div>
+    <div class="rsvp-content">
+      <span class="section-eyebrow" data-aos="fade-up">Kindly Respond</span>
+      <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">RSVP</h2>
+
+      <div class="ornament-divider" data-aos="fade-in" data-aos-delay="200">
+        <span class="ornament-line"></span>
+        <span class="ornament-flower">✿</span>
+        <span class="ornament-line right"></span>
+      </div>
+
+      <p class="rsvp-lede" data-aos="fade-up" data-aos-delay="150">
+        Your presence would mean the world to us. Please let us know if you can join the celebration.
+      </p>
+
+      <form id="rsvp-form" class="rsvp-form" data-aos="fade-up" data-aos-delay="200" novalidate>
+        <div class="rsvp-grid">
+          <div class="rsvp-field">
+            <label for="rsvp-name">Name</label>
+            <input type="text" id="rsvp-name" name="name" placeholder="Your full name" required />
+          </div>
+
+          <div class="rsvp-field">
+            <label for="rsvp-mobile">Mobile Number</label>
+            <input type="tel" id="rsvp-mobile" name="mobile" placeholder="+91 00000 00000" required />
+          </div>
+
+          <div class="rsvp-field">
+            <label for="rsvp-email">Email</label>
+            <input type="email" id="rsvp-email" name="email" placeholder="you@example.com" />
+          </div>
+
+          <div class="rsvp-field">
+            <label for="rsvp-guests">Guest Count</label>
+            <input type="number" id="rsvp-guests" name="guests" min="1" max="10" value="1" required />
+          </div>
+
+          <div class="rsvp-field">
+            <label for="rsvp-side">Attending As</label>
+            <select id="rsvp-side" name="side" required>
+              <option value="" disabled selected>Select one</option>
+              <option value="Bride Side">Bride Side</option>
+              <option value="Groom Side">Groom Side</option>
+            </select>
+          </div>
+
+          <div class="rsvp-field">
+            <label for="rsvp-attend">Will You Attend?</label>
+            <select id="rsvp-attend" name="attend" required>
+              <option value="" disabled selected>Select one</option>
+              <option value="Joyfully Accepts">Joyfully Accepts</option>
+              <option value="Regretfully Declines">Regretfully Declines</option>
+            </select>
+          </div>
+
+          <div class="rsvp-field rsvp-field--full">
+            <label for="rsvp-message">Message for the Couple</label>
+            <textarea id="rsvp-message" name="message" rows="3" placeholder="Leave your wishes and blessings..."></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="rsvp-btn">
+          <span>Send RSVP</span>
+          <i class="fas fa-paper-plane" aria-hidden="true"></i>
+        </button>
+      </form>
+
+      <div class="rsvp-popup" id="rsvpPopup" aria-hidden="true">
+        <div class="rsvp-popup__card">
+          <span class="rsvp-popup__icon">✓</span>
+          <h3>Jazakallah Khair!</h3>
+          <p>Your response has been recorded. We can't wait to celebrate with you.</p>
+          <button type="button" class="rsvp-popup__close" id="rsvpPopupClose">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  ========================== END RSVP COMMENT ========================== -->
+
+  <!-- ===================== THANK YOU / FOOTER ===================== -->
+  <footer id="thankyou">
+    <div class="footer-pattern" aria-hidden="true"></div>
+    <div class="footer-content">
+      <span class="footer-eyebrow" data-aos="fade-up">✿</span>
+      <p class="footer-thanks" data-aos="fade-up" data-aos-delay="100">Thank You</p>
+
+      <p class="footer-names" data-aos="fade-up" data-aos-delay="150">
+        Favas Areekkadan &amp; Fathima Rooshin
+      </p>
+
+      <p class="footer-date" data-aos="fade-up" data-aos-delay="200">
+        Sunday &middot; 01 November 2026
+      </p>
+
+      <div class="footer-divider" data-aos="fade-in" data-aos-delay="300"></div>
+
+      <p class="footer-quote" data-aos="fade-up" data-aos-delay="300">
+        "May Allah bless this union with love, mercy and lasting peace."
+      </p>
+
+      <p class="footer-compliments" data-aos="fade-up" data-aos-delay="400">
+        With Best Compliments<br />
+        <span>Family &amp; Friends</span>
+      </p>
+
+      <a href="https://maps.app.goo.gl/ZYZc4ng7odMddKfg8?g_st=aw"
+        target="_blank" rel="noopener noreferrer" class="maps-btn footer-maps-btn" data-aos="fade-up" data-aos-delay="450">
+        <i class="fas fa-map-marker-alt"></i> Mavoor Panchayath Convention Center, Near Mavoor Bus Stand
+      </a>
+
+      <p class="footer-bottom" data-aos="fade-in" data-aos-delay="500">
+        Made with <span class="footer-heart">&#9829;</span> for Favas Areekkadan &amp; Fathima Rooshin's blessed union
+      </p>
+    </div>
+  </footer>
+
+
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/countdown.js"></script>
+
+</body>
+
+</html>
